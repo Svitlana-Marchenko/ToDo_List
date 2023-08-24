@@ -1,0 +1,109 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.todo-item.done {
+  background-color: #f0f0f0;
+}
+
+.todo-item p {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-list-items {
+  border: 1px solid #999;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.clear-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.clear-button:hover {
+  background-color: darkred;
+}
+
+.todo-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.todo-form input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.todo-form button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo-form button:hover {
+  background-color: darkgreen;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.app-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+.todo-list-items {
+  padding: 10px;
+  width: 100%;
+}
+
+.todo-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.todo-form input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.todo-form button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.todo-item.done {
+  text-decoration: line-through;
+}
